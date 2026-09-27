@@ -1,0 +1,6 @@
+{
+  "name": "Pracharak Duty Management - Sant Nirankari Mission Zone 34",
+  "description": "Comprehensive Pracharak duty allocation, satsang scheduling, rule-based auto-assignment, multi-language duty charts, and attendance system for Sant Nirankari Mission, Zone 34 Pune.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

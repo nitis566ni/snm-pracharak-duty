@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Font size global classes */
+html.font-size-compact {
+  font-size: 13.5px;
+}
+html.font-size-normal {
+  font-size: 15px;
+}
+html.font-size-medium {
+  font-size: 16.5px;
+}
+html.font-size-large {
+  font-size: 18px;
+}
+html.font-size-xlarge {
+  font-size: 20px;
+}
+
+.font-devanagari {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Custom scrollbar for data tables and sidebars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 76, 66, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 76, 66, 0.4);
+}
